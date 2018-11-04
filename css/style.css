@@ -1,0 +1,168 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+@font-face
+{
+    font-family: OpenSans;
+
+    src: url(../fonts/Open_Sans/OpenSans-Regular.ttf) format('truetype');
+    src: url(../fonts/Open_Sans/OpenSans-Bold.ttf) format('truetype');
+}
+
+@font-face
+{
+    font-family: Bebas;
+
+    src: url(../fonts/bebas_neue/bebas_neue_bold.ttf) format('truetype');
+}
+
+.main_wrapper
+{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+    Верхнее меню
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.nav
+{
+    display: flex;
+
+    height: 90px;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.nav-list
+{
+    display: flex;
+
+    list-style: none;
+}
+
+.nav-link
+{
+    font-family: OpenSans;
+
+    text-transform: uppercase;
+
+    color: rgb(109, 30, 0);
+}
+
+/* .nav-link:hover {
+    cursor: pointer;
+} */
+
+
+/* Шапка */
+
+header
+{
+    height: 840px;
+
+    background-image: url(../img/header_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logo
+{
+    margin-top: 115px;
+    margin-left: 260px;
+}
+
+.header_card
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 570px;
+    height: 240px;
+    margin: 0 auto;
+    margin-top: 61px;
+    color: #fff;
+    border: 1px solid;
+    border-color: #533019;
+    background-image: url(../img/header_card_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0 14px 28px rgba(0,0,0,.5);
+    
+}
+
+.header_card h1
+{
+    font-family: 'Bebas';
+    font-size: 49px;
+    font-weight: 400;
+
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 20px;
+
+    text-transform: uppercase;
+
+    align-items: center;
+}
+
+.header_card h1 span
+{
+    font-size: 100px;
+
+    margin-top: 30px;
+}
+
+.about
+{
+    display: flex;   
+    justify-content: center;
+    background-image: url(../img/about_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.about_card
+{
+    display: flex;
+    -webkit-justify-content: center;
+            justify-content: center;
+    -webkit-align-items: center;
+            align-items: center;
+    box-sizing: border-box;
+    width: 830px;
+    height: 335px;
+    margin-top: 120px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #d2d2d2;
+    background-color: rgba(245, 245, 245, .79);
+    box-shadow: -2px 2px 8px 0 rgba(0, 0, 0, .25);
+    margin-bottom: 175px;
+}
+
+.about_card p {
+    font-family: OpenSans;
+color:  #6d1e00;
+font-size: 18px;
+font-weight: 400;
+text-align: justify;
+}
+
+.about_card p span {
+    font-weight: 700;
+
+}
