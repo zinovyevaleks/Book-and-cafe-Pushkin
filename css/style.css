@@ -21,8 +21,10 @@
 }
 
 .main_wrapper
-{
-    max-width: 1600px;
+{   
+    /*max-width: 1600px;
+    min-width: 1024px;*/
+    width: 1024px;
     margin: 0 auto;
 }
 
@@ -71,34 +73,42 @@ a
 
 header
 {
-    height: 840px;
-
-    background-image: url(../img/header_bg.jpg);
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/header_bg_tab.jpg);
     background-repeat: no-repeat;
-    background-position: center;
+    -webkit-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+    
 }
+
 
 .logo
 {
-    margin-top: 115px;
-    margin-left: 260px;
+    margin-top: 6em;
+    margin-left: 4em;
+    width: 172px;
 }
 
 .header_card
 {
     display: flex;
     justify-content: center;
-    align-items: center;
-    width: 570px;
-    height: 240px;
+   /* width: 570px;
+    height: 240px;*/
+    width: 458px;
+    height: 193px;
     margin: 0 auto;
     margin-top: 61px;
+    margin-bottom: 99px;
     color: #fff;
     border: 1px solid;
     border-color: #533019;
     background-image: url(../img/header_card_bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     box-shadow: 0 14px 28px rgba(0,0,0,.5);
     
 }
@@ -106,7 +116,7 @@ header
 .header_card h1
 {
     font-family: 'Bebas';
-    font-size: 49px;
+    font-size: 3em;
     font-weight: 400;
 
     display: flex;
@@ -121,9 +131,9 @@ header
 
 .header_card h1 span
 {
-    font-size: 100px;
+    font-size: 2em;
+    margin-top: 15px;
 
-    margin-top: 30px;
 }
 
 .about
@@ -133,6 +143,7 @@ header
     background-image: url(../img/about_bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: contain;
 }
 
 .about_card
@@ -143,21 +154,22 @@ header
     -webkit-align-items: center;
             align-items: center;
     box-sizing: border-box;
-    width: 830px;
-    height: 335px;
-    margin-top: 120px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: #d2d2d2;
+    width: 672px;
+    height: 272px;
+    margin-top: 105px;
+    margin-bottom: 198px;
+    padding: 44px;
+    border: 1px solid #d2d2d2;
+    border-bottom: 5px solid #6d1e00;
     background-color: rgba(245, 245, 245, .79);
     box-shadow: -2px 2px 8px 0 rgba(0, 0, 0, .25);
-    margin-bottom: 175px;
+    
 }
 
 .about_card p {
     font-family: OpenSans;
 color:  #6d1e00;
-font-size: 18px;
+font-size: 1em;
 font-weight: 400;
 text-align: justify;
 }
@@ -165,4 +177,13 @@ text-align: justify;
 .about_card p span {
     font-weight: 700;
 
+}
+
+.program {
+
+    
+    height: 1032px;
+    background-image: url(../img/knowledge_bg_tab.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
