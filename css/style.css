@@ -62,28 +62,33 @@ a
 
     justify-content: space-between;
     align-items: center;
+    padding-left: 41px;
+    padding-right: 42px;
 }
 
 
 .nav-list
 {
     display: flex;
+   -webkit-justify-content: space-between;
+           justify-content: space-between;
 
     list-style: none;
+    width: 728px;
 }
 
 .nav-link
-{
-    font-family: OpenSans;
+{   font-size: 14px;
+font-weight: 700;
 
     text-transform: uppercase;
 
     color: rgb(109, 30, 0);
 }
 
-/* .nav-link:hover {
+ .switch_item:hover {
     cursor: pointer;
-} */
+} 
 
 
 /* Шапка */
@@ -95,9 +100,10 @@ header
 
     background-image: url(../img/header_bg_tab.jpg);
     background-repeat: no-repeat;
-    -webkit-background-size: cover;
-         -o-background-size: cover;
-            background-size: cover;
+    -webkit-background-size: contain;
+         -o-background-size: contain;
+            background-size: contain;
+    height: 673px;
 }
 
 
@@ -281,7 +287,7 @@ header
 .important
 {
     display: flex;
-    flex-direction: column;
+            flex-direction: column;
 
     height: 759px;
     padding-right: 93px;
@@ -303,7 +309,7 @@ header
     font-size: 24px;
     font-weight: 700;
 
-    margin-top: 84px;
+    margin-top: 50px;
     margin-bottom: 25px;
     margin-left: 134px;
 
@@ -350,15 +356,62 @@ header
 .meeting
 {
     display: flex;
-    /* height: 663px;*/
+    flex-direction: column;
+
+    height: 663px;
 
     background-image: url(../img/meeting_bg_tab.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
 
-    /*justify-content: center;
-    align-items: center;*/
+    justify-content: center;
+    align-items: center;
+}
+
+.meeting hr
+{
+    width: 62%;
+    height: 1px;
+    margin-left: 134px;
+
+    color: #7b4c39; /*для IE */
+    border: 0 none;
+    background-color: #7b4c39; /*для Firefox, Opera, Safari*/
+}
+
+.meeting_card
+{
+    width: 820px;
+    height: 431px;
+    margin-top: 34px;
+
+    border-bottom: 5px solid #6d1e00;
+    background-color: rgba(255, 255, 255, .79);
+    box-shadow: -2px 2px 8px 0 rgba(0, 0, 0, .25);
+}
+
+.meeting_card h2
+{
+    margin-top: 31px;
+    margin-bottom: 15px;
+    margin-left: 246px;
+
+    text-transform: uppercase;
+}
+
+.meeting_card  .row
+{
+    height: 58px;
+
+    align-items: center;
+}
+.meeting_card  .row img
+{
+    width: 23px;
+    height: 20px;
+    margin-right: 33px;
+    margin-left: 134px;
 }
 
 .price
@@ -499,10 +552,100 @@ header
 
 footer
 {
+    display: flex;
+            flex-direction: column;
+
     height: 479px;
 
+    color: #fff;
     background-image: url(../img/footer_bg.jpg);
-    -webkit-background-size: contain;
-         -o-background-size: contain;
-            background-size: contain;
+    -webkit-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+    /*
+    justify-content: center;*/
+
+    align-items: center;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+}
+
+footer h2
+{
+    font-family: OpenSans;
+    font-size: 24px;
+    font-weight: 700;
+
+    margin-top: 118px;
+    margin-bottom: 18px;
+
+    text-transform: uppercase;
+
+    color: #fff;
+}
+
+footer .row
+{
+    margin-bottom: 9px;
+
+    -webkit-justify-content: space-around;
+            justify-content: space-around;
+}
+
+footer form input
+{
+    width: 242px;
+    height: 33px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-left: 20px;
+
+    border: none;
+    border-radius: 3px;
+    background-color: #fff;
+    font-size: 14px;
+font-weight: 400;
+}
+
+footer form button
+{
+    font-size: 18px;
+    font-weight: 400;
+
+    width: 262px;
+    height: 33px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+
+    color: #fffefe;
+    border-color: #d70000;
+    -webkit-border-radius: 25px;
+            border-radius: 25px;
+    background-color: #d70000;
+    
+}
+
+footer form button:hover {
+    border-color: #fff;
+    cursor: pointer;
+    
+}
+
+
+footer h3
+{
+    font-family: OpenSans;
+    font-size: 18px;
+    font-weight: 700;
+
+    text-align: center;
+
+    color: #fff;
+}
+
+footer .email {
+    font-family: OpenSans;
+color:  #ffffff;
+font-size: 18px;
+font-weight: 400;
 }
