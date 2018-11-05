@@ -79,7 +79,7 @@ a
 
 .nav-link
 {   font-size: 14px;
-font-weight: 700;
+    font-weight: 700;
 
     text-transform: uppercase;
 
@@ -648,4 +648,132 @@ footer .email {
 color:  #ffffff;
 font-size: 18px;
 font-weight: 400;
+}
+
+@media  (max-width: 768px) {
+    
+}
+
+.nav {
+        display: none;
+        
+    }
+
+.nav-mobile .row {
+    height: 90px;
+    width: 948px;
+        -webkit-justify-content: space-between;
+            justify-content: space-between;
+        -webkit-align-items: center;
+                align-items: center;
+    background-color: white;
+    padding-left: 42px;    
+}
+
+
+.nav-mobile h2 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.nav-mobile-icon {
+    width: 45px;
+    height: 35px;
+    position: relative;
+    cursor: pointer;
+}
+
+.nav-mobile-icon span {
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background: #6d1e00;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+}
+
+.nav-mobile-icon span:nth-child(1) {
+    top: 0px;
+}
+
+.nav-mobile-icon span:nth-child(2), 
+.nav-mobile-icon span:nth-child(3) {
+    top: 13px;
+}
+
+.nav-mobile-icon span:nth-child(4) {
+    top: 26px;
+}
+
+.open span:nth-child(1) {
+    top: 18px;
+    width: 0%;
+    left: 50%;
+}
+
+.open span:nth-child(2) {
+    transform: rotate(45deg);
+} 
+.open span:nth-child(3) {
+     transform: rotate(-45deg);
+}
+
+.open span:nth-child(4) {
+    top: 18px;
+    width: 0%;
+    left: 50%;
+}
+
+
+.nav-list-mobile {
+    
+    list-style: none;
+    display: flex;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-align-items: center;
+            align-items: center;
+    height: 100vh;
+    
+}
+
+.nav-item {
+    display: flex;
+    -webkit-justify-content: center;
+            justify-content: center;
+    -webkit-align-items: center;
+            align-items: center;
+    height: 60px;
+    width: 100%;
+}
+
+.nav-item:hover {
+    cursor: pointer;
+    background-color: #6d1e00;
+    color: #fff;
+}
+
+
+.nav-item:hover a {
+    color: #fff;
+}
+
+.nav-link {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.nav_switch {
+    margin-top: 12px;
+}
+
+.switch_item {
+    height: 34px;
+        margin-left: 10px;
+    margin-right: 10px;
 }
