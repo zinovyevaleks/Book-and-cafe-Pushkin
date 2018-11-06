@@ -552,7 +552,7 @@ header
     padding-top: 53px;
     padding-bottom: 30px;
 
-    background-image: url(../img/cal_bg.jpg);
+    background-image: url(../img/cal_bg_tab.jpg);
 }
 
 .cal .img
@@ -575,7 +575,7 @@ header
     padding-top: 54px;
     padding-bottom: 30px;
 
-    background-image: url(../img/coin_bg.jpg);
+    background-image: url(../img/coin_bg_tab.jpg);
 }
 
 .coin h4
@@ -598,7 +598,7 @@ header
     padding-top: 39px;
     padding-bottom: 30px;
 
-    background-image: url(../img/dialog_bg.jpg);
+    background-image: url(../img/dialog_bg_tab.jpg);
 }
 
 .dialog .img
@@ -626,7 +626,7 @@ header
     padding-top: 42px;
     padding-bottom: 30px;
 
-    background-image: url(../img/begining_bg.jpg);
+    background-image: url(../img/begining_bg_tab.jpg);
 }
 
 .begining .img
@@ -751,7 +751,7 @@ footer .email
 
 
 
-@media  (max-width: 768px)
+@media  (max-width: 425px)
 {
     .nav
     {
@@ -1247,4 +1247,164 @@ footer .email
     {
         font-size: 24px;
     }
+
+    .price
+    {
+        font-size: 18px;
+        font-weight: 400;
+
+        height: 878px;
+
+        color: white;
+    }
+
+    .price h4
+    {
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .price .row
+    {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .price .column
+    {
+        width: 570px;
+        height: 356px;
+        margin-right: 15px;
+        margin-left: 15px;
+
+        border-width: 1px;
+        border-style: solid;
+        border-color: #55311a;
+        background-color: #000;
+        box-shadow: -3px 3px 16px 0 rgba(0, 0, 0, .46);
+
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+        -webkit-align-items: center;
+                align-items: center;
+    }
+
+    .cal
+    {
+        padding-top: 72px;
+        padding-bottom: 30px;
+
+        background-image: url(../img/cal_bg.jpg);
+    }
+
+    .cal .img
+    {
+        width: 67px;
+        height: 61px;
+        margin-bottom: 54px;
+    }
+
+    .cal h4
+    {
+        margin-bottom: 22px;
+    }
+
+    .coin
+    {
+        padding-top: 74px;
+        padding-bottom: 30px;
+
+        background-image: url(../img/coin_bg.jpg);
+    }
+
+    .coin .img {
+    width: 75px;
+    height: 64px;
+    margin-bottom: 49px;
+    background-image: url(../img/coin_ico.png);
+    background-size: cover;
+}
+
+    .dialog
+    {
+        padding-top: 55px;
+        padding-bottom: 30px;
+
+        background-image: url(../img/dialog_bg.jpg);
+    }
+
+    .dialog .img {
+    width: 73px;
+height: 72px;
+    margin-bottom: 34px;
+    background-image: url(../img/dialog_ico.png);
+}
+
+    .begining
+    {
+        padding-top: 59px;
+        padding-bottom: 30px;
+
+        background-image: url(../img/begining_bg.jpg);
+    }
+
+    .begining .img {
+    width: 69px;
+    height: 69px;
+    margin-bottom: 31px;
+    background-image: url(../img/begining_ico.png);
+    background-size: cover;
+}
+
+footer {
+    
+    height: 730px;
+    
+}
+
+footer .row {
+    margin-bottom: 15px;
+    
+}
+
+footer h2 {
+   
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 182px;
+    margin-bottom: 85px;
+}
+footer h3 {
+    font-size: 30px;
+}
+
+footer form input {
+    font-size: 18px;
+    width: 370px;
+    height: 45px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-left: 34px;
+    border: none;
+    border-radius: 3px;
+    background-color: #fff;
+}
+
+footer form button {
+    font-size: 24px;
+    font-weight: 400;
+    width: 370px;
+    height: 45px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    color: #fffefe;
+    border-color: #d70000;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+    background-color: #d70000;
+}
+
+.social_ico {
+    margin-top: 12px;
+}
 }
