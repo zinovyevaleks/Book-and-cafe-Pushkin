@@ -38,6 +38,7 @@
     margin: 0 auto;
 
     color: #6d1e00;
+    
 }
 
 .row
@@ -278,7 +279,7 @@ header
     margin-bottom: calc(58px - 27px);
 }
 
-.program_card .row .book-icon
+.program_card .book-icon
 {
     width: 35px;
     height: 35px;
@@ -293,7 +294,7 @@ header
             background-size: contain;
 }
 
-.program_card .row .people-icon
+.program_card .people-icon
 {
     width: 43px;
     height: 43px;
@@ -309,7 +310,7 @@ header
 }
 
 
-.program_card .row .kokoshnik-icon
+.program_card .kokoshnik-icon
 {
     width: 91px;
     height: 33px;
@@ -931,6 +932,7 @@ footer .email
     .main_wrapper
     {
         width: 1600px;
+        
     }
 
     .nav
