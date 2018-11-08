@@ -359,7 +359,7 @@ header
 
     background-image: url(../img/kokoshnik_ico.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 .program_card p
@@ -1179,10 +1179,10 @@ footer .email
 
     .program_card .row .kokoshnik-icon
     {
-        width: 4vw;
-        height: 4vw;
-        margin-right: 51px;
-        margin-left: 157px;
+        width: 8vw;
+        height: 6vw;
+        margin-right: 3vw;
+        margin-left: 10vw;
     }
 
 
