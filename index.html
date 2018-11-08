@@ -46,19 +46,21 @@
         </nav>
         <nav class="nav-mobile">
             <div class="row">
-                <h2>МЕНЮ</h2>
+                <h2 class="nav-mobile-icon">МЕНЮ</h2>
 
-                <div class="nav-mobile-icon ">
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                </div>
+                <div class="nav_switch">
+                    <a href="index_jp.html">
+                        <img class="switch_item" src="./img/jap_ico.png" alt="japan language"></img>
+                    </a>
+                    <a href="index.html">
+                        <img class="switch_item" src="./img/rus_ico.png" alt="russian language"></img>
+                    </a>
+                </div>  
             </div>
             
             <ul class="nav-list-mobile">
                 <li class="nav-item">
-                    <a class="nav-link" href="fonts/">главная</a>
+                    <a class="nav-link" href="#">главная</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#about">о клубе</a>
@@ -78,17 +80,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#registration">регистрация</a>
                 </li>
-                <li class="nav-item">
-                    <div class="nav_switch">
-                        <a href="index_jp.html">
-                            <img class="switch_item" src="./img/jap_ico.png" alt="japan language"></img>
-                        </a>
-                        <a href="index.html">
-                            <img class="switch_item" src="./img/rus_ico.png" alt="russian language"></img>
-                        </a>
-                    </div>
-                </li>
-            </ul>
+            </ul>          
         </nav>
 
         <header>
@@ -234,7 +226,7 @@
                 </div>
                 <div class="coin column">
                     <div class="img"></div>
-                    <!-- <img src="img/coin_ico.png" alt=""> -->
+                    
                     <h4>Стоимость</h4>
                     <p>
 
@@ -246,7 +238,6 @@
             <div class="row">
                 <div class="dialog column">
                     <div class="img"></div>
-                    <!-- <img src="img/dialog_ico.png" alt=""> -->
                     <h4>Открытая встреча</h4>
                     <p>26 октября в 10:00. О месте встречи
                     </p>
@@ -254,7 +245,6 @@
                 </div>
                 <div class="begining column">
                     <div class="img"></div>
-                    <!-- <img src="img/begining_ico.png" alt=""> -->
                     <h4>
                         Начало
                     </h4>
@@ -270,11 +260,10 @@
             <h2>регистрация</h2>
             <form>
 
-                <!-- Hidden Required Fields -->
                 <input type="hidden" name="project_name" value="Site Name">
                 <input type="hidden" name="admin_email" value="admin@mail.com">
                 <input type="hidden" name="form_subject" value="Form Subject">
-                <!-- END Hidden Required Fields -->
+                
                 <div class="row">
                     <input type="text" name="Name" placeholder="Фамилия Имя" required>
                     <input type="text" name="Phone" placeholder="Номер телефона">

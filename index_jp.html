@@ -6,15 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Books & Cafe プーシキン</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_jp.css">
 </head>
                                  
 <body>
-    <div class="main_wrapper">
+    <div class="main_wrapper jp">
         <nav class="nav">
             <ul class="nav-list">
                 <li class="nav-item">
-                    <a class="nav-link" href="fonts/">ホーム</a>
+                    <a class="nav-link" href="#">ホーム</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#about">クラブについて</a>
@@ -46,86 +46,76 @@
         </nav>
         <nav class="nav-mobile">
             <div class="row">
-                <h2>МЕНЮ</h2>
+                <h2 class="nav-mobile-icon">MENU</h2>
 
-                <div class="nav-mobile-icon ">
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                </div>
+                <div class="nav_switch">
+                    <a href="index_jp.html">
+                        <img class="switch_item" src="./img/jap_ico.png" alt="japan language"></img>
+                    </a>
+                    <a href="index.html">
+                        <img class="switch_item" src="./img/rus_ico.png" alt="russian language"></img>
+                    </a>
+                </div>  
             </div>
             
             <ul class="nav-list-mobile">
                 <li class="nav-item">
-                    <a class="nav-link" href="fonts/">главная</a>
+                    <a class="nav-link" href="#">ホーム</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#about">о клубе</a>
+                    <a class="nav-link" href="#about">クラブについて</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#program">программа</a>
+                    <a class="nav-link" href="#program">プログラム</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#important">важно</a>
+                    <a class="nav-link" href="#important">重要なお知らせ</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#meeting">встречи</a>
+                    <a class="nav-link" href="#meeting">セッション</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#price">цена и расписание</a>
+                    <a class="nav-link" href="#price">料金とスケジュール</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#registration">регистрация</a>
+                    <a class="nav-link" href="#registration">登録</a>
                 </li>
-                <li class="nav-item">
-                    <div class="nav_switch">
-                        <a href="index_jp.html">
-                            <img class="switch_item" src="./img/jap_ico.png" alt="japan language"></img>
-                        </a>
-                        <a href="index.html">
-                            <img class="switch_item" src="./img/rus_ico.png" alt="russian language"></img>
-                        </a>
-                    </div>
-                </li>
-            </ul>
+            </ul>          
         </nav>
+
 
         <header>
             <img src="img/Logo.png" alt="Лого" class="logo">
             <div class="header_card">
-                <h1>книжное кафе<br><span>пушкин</span></h1>
+                <h1>BOOKS<span>&</span>CAFE<br><span>プーシキン</span></h1>
             </div>
         </header>
         <section class="about" id="about">
             <div class="about_card">
-                <p><span>КНИЖНОЕ КАФЕ «ПУШКИН» ЭТО ПРАКТИКА РУССКОЙ РАЗГОВОРНОЙ РЕЧИ И ЧТЕНИЯ. </span>БЛАГОДАРЯ ХУДОЖЕСТВЕННОЙ ЛИТЕРАТУРЕ И ЕЕ ОБСУЖДЕНИЮ НА НАШИХ ВСТРЕЧАХ В УЮТНОЙ ОБСТАНОВКЕ И ЗА ЧАШКОЙ КОФЕ, ВЫ ПОВЫСИТЕ УРОВЕНЬ ЗНАНИЯ РУССКОГО
-                    ЯЗЫКА, И УЗНАЕТЕ ИСТОРИЮ, КУЛЬТУРУ, БЫТ, ХАРАКТЕР, ТРАДИЦИИ РОССИИ.</p>
+                <p>スピーキングと読解をとおして、実践的なロシア語が身に着きます。ロシアの歴史、地理、戦争、名所・旧跡、伝統、文化、自然や、ロシア人の民族性、生活様式について、深く学ぶことができます。</p>
             </div>
         </section>
 
         <section class="program">
             <div class="program_card" id="program">
-                <h2>Практика разговорной речи</h2>
+                <h2>簡単親しみやすい方法で参加できます！</h2>
+                <hr>
                 <div class="row">
                     <div class="book-icon"></div>
-                    <p>Читаем дома русскую классическую литературу
-                        (на русском или японском языке)</p>
+                    <p>ロシア文学の作品を自宅で読みます（日本語でもロシア語でも）</p>
                 </div>
 
                 <div class="row">
                     <div class="people-icon"></div>
-                    <p>Встречаемся 1 раз в неделю и обсуждаем на русском языке
-                        произведение</p>
+                    <p>週に一回のミーティングで作品について語り合います</p>
                 </div>
 
                 <div class="mindmap"></div>
                 <div class="row">
                     <div class="kokoshnik-icon"></div>
-                    <p>В месяц читаем и обсуждаем 1 – 2 книги. Зависит от объема
-                        и сложности книги. Разбираем книгу, углубляясь в историю,
-                        культуру, традиции, архитектуру, природу, географию,<br>
-                        характер и быт русского народа.</p>
+                    <p>毎月1～2冊の作品をあつかう予定ですが、ページ数や難易度によ
+って変わります。ロシアの歴史、文化、伝統、建築、自然、地理、
+ロシア人の民族性や生活様式に着目しながら、作品を掘り下げます</p>
                 </div>
 
             </div>
@@ -133,88 +123,88 @@
 
         <section class="important" id="important">
 
-            <h2>Что нужно знать:</h2>
+            <h2>プログラムの概要は、こんな感じです：</h2>
             <hr>
             <div class="row">
                 <div class="cup"></div>
-                <p>Обсуждение книг на русском языке (даже, если ваш уровень языка<br>
-                    начинающий, это хорошая практика ваших знаний)</p>
+                <p>作品についてロシア語で話し合います（入門者、初心者の方にとっても、
+ロシア語習得の 良いトレーニングになります</p>
             </div>
 
             <hr>
             <div class="row">
                 <div class="cup"></div>
-                <p>Только выдающиеся книги русских писателей</p>
+                <p>ロシア文学の名作だけを扱います</p>
             </div>
 
 
             <hr>
             <div class="row">
                 <div class="cup"></div>
-                <p>Подбор книг с историческим охватом с XVII по XXI век</p>
+                <p>主に17世紀から20世紀の作品です</p>
             </div>
             <hr>
             <div class="row">
                 <div class="cup"></div>
-                <p>Только интересные книги! И только те, что есть в переводе на японский<br>язык. Популярные, в России и за рубежом.</p>
+                <p>ロシア国内、国外で有名な作品のうち、日本語訳が出ている作品を扱います</p>
             </div>
             <hr>
             <div class="row">
                 <div class="cup"></div>
-                <p>Продолжительность занятия 1 час 30 минут</p>
+                <p>1セッションは1時間半です</p>
             </div>
             <hr>
             <div class="row">
                 <div class="cup"></div>
-                <p>Группа 8-10 человек</p>
+                <p>8～10人のグループセッションです</p>
             </div>
             <hr>
             <div class="row">
                 <div class="cup"></div>
-                <p>За год вы прочтете более 12 книг русских авторов (1-2 книги в месяц)</p>
+                <p>年で12冊以上のロシア語作品を読んでいきます（月に1～2冊のペース)</p>
             </div>
             <hr>
             <div class="row">
                 <div class="cup"></div>
-                <p>3 встречи в месяц</p>
+                <p>毎月3セッションです</p>
             </div>
             <hr>
         </section>
 
         <section class="meeting" id="meeting">
             <div class="meeting_card">
-                <h2>Как проходят встречи:</h2>
+                <h2>セッションは…</h2>
                 <hr>
                 <div class="row">
                     <div class="book-ico"></div>
-                    <p>В тихом и комфортном work space</p>
+                    <p>静かで快適なワークスペースで行います</p>
                 </div>
                 <hr>
 
                 <div class="row">
                      <div class="book-ico"></div>
-                    <p>За чашкой чая и/или кофе</p>
+                    <p>ソフトドリンクを飲みながらです</p>
                 </div>
                 <hr>
 
 
                 <div class="row">
                      <div class="book-ico"></div>
-                    <p>Живое обсуждение книги</p>
+                    <p>活発な議論で楽しくやります</p>
                 </div>
                 <hr>
 
                 <div class="row">
                      <div class="book-ico"></div>
-                    <p>Создание mind-maps по сюжетной и исторической линии</p>
+                    <p>筋書きや時系列に沿ったマインドマップをつくりながら進行します</p>
                 </div>
                 <hr>
 
                 <div class="row">
                      <div class="book-ico"></div>
-                    <p>Интересные задания на дом: найти захватывающие факты<br>
-                        о книге, авторе, событиях в России в этот период. Поделиться<br>
-                        на встрече.</p>
+                    <p>事前準備（ホームワーク）：作品に描かれた出来事や作者、<br>
+同時代のロシアにおける出来事を事前に調べ、<br>
+セッションでシェアして話し合います</p>
                 </div>
 
             </div>
@@ -225,73 +215,78 @@
                 <div class="cal column">
                     <div class="img"></div>
                     
-                    <h4>Расписание встреч</h4>
+                    <h4>スケジュール</h4>
                     <p>
 
-                        Суббота　9:00 ～ 10:30
+                        土曜日　9:00 ～ 10:30
                     </p>
-                    <p>16:00 ～ 17:30</p>
+                    <p>  16:00 ～ 17:30</p>
                 </div>
                 <div class="coin column">
                     <div class="img"></div>
-                    <!-- <img src="img/coin_ico.png" alt=""> -->
-                    <h4>Стоимость</h4>
+                    
+                    <h4>参加費用
+
+</h4>
                     <p>
 
-                        Стоимость 1 месяца (3 занятия) –
+                       1か月（3 セッション）で8400円
+
                     </p>
-                    <p>8400 йен.</p>
+                    <p>お支払いは毎月5日までにお願いします。</p>
                 </div>
             </div>
             <div class="row">
                 <div class="dialog column">
                     <div class="img"></div>
-                    <!-- <img src="img/dialog_ico.png" alt=""> -->
-                    <h4>Открытая встреча</h4>
-                    <p>26 октября в 10:00. О месте встречи
-                    </p>
-                    <p>сообщим дополнительно.</p>
+                    
+                    <h4>無料体験セッション
+
+</h4>
+                    <p> 
+
+10月27日　10:00～<br>
+セッションの場所については、<br>
+開始前に改めてご連絡します。</p>
                 </div>
                 <div class="begining column">
                     <div class="img"></div>
-                    <!-- <img src="img/begining_ico.png" alt=""> -->
+                    
                     <h4>
-                        Начало
+                        セッション開始
                     </h4>
-                    <p>Ведется набор группы, регистрируйтесь. З
-                    </p>
-                    <p>анятия начинаем с февраля 2019 года</p>
+                    <p>現在、１グループの形成準備中です。<br>セッション開始は2019年2月を予定しています。</p>
                 </div>
             </div>
 
         </section>
 
         <footer id="registration">
-            <h2>регистрация</h2>
+            <h2>申し込みます</h2>
             <form>
 
-                <!-- Hidden Required Fields -->
+                
                 <input type="hidden" name="project_name" value="Site Name">
                 <input type="hidden" name="admin_email" value="admin@mail.com">
                 <input type="hidden" name="form_subject" value="Form Subject">
-                <!-- END Hidden Required Fields -->
+            
                 <div class="row">
-                    <input type="text" name="Name" placeholder="Фамилия Имя" required>
-                    <input type="text" name="Phone" placeholder="Номер телефона">
-                    <input type="text" name="E-mail" placeholder="E-mail" required>
+                    <input type="text" name="Name" placeholder="氏名" required>
+                    <input type="text" name="Phone" placeholder="電話番号">
+                    <input type="text" name="E-mail" placeholder="メールアドレス" required>
                 </div>
                 <div class="row">
-                    <input type="text" name="Name" placeholder="Цель вступления в клуб" required>
-                    <input type="text" name="E-mail" placeholder="Уровень знания русского языка" required>
-                    <input type="text" name="Phone" placeholder="Возраст">
+                    <input type="text" name="Name" placeholder="参加の動機" required>
+                    <input type="text" name="E-mail" placeholder="現在のロシア語習得レベル" required>
+                    <input type="text" name="Phone" placeholder="年齢 ">
                 </div>
-                <div class="row"><button>Зарегистрироваться</button>
+                <div class="row"><button>登録する</button>
                 </div>
 
 
             </form>
 
-            <h3>Контакты:</h3>
+            <h3>連絡先:</h3>
             <p class="email">pushkin@bookscafe.club</p>
             <div class="social_ico">
                 <img src="img/facebook_ico.png" alt="">
