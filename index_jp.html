@@ -3,10 +3,10 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Books & Cafe プーシキン</title>
-    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -97,8 +97,8 @@
         </section>
 
         <section class="program">
-            <div class="program_card program_card_jp" id="program">
-                <h2>簡単親しみやすい方法で参加できます！</h2>
+            <div class="program_card program_card_jp" >
+                <h2 id="program">簡単親しみやすい方法で参加できます！</h2>
                 <hr>
                 <div class="row">
                     <div class="book-icon"></div>
@@ -258,8 +258,8 @@
 
         </section>
 
-        <footer id="registration">
-            <h2>申し込みます</h2>
+        <footer>
+            <h2 id="registration">申し込みます</h2>
             <form>
 
 
@@ -277,7 +277,9 @@
                     <input type="text" name="E-mail" placeholder="現在のロシア語習得レベル" required>
                     <input type="text" name="Phone" placeholder="年齢 ">
                 </div>
-                <div class="row"><button>登録する</button>
+                <div class="row">
+                    <!-- <button>登録する</button> -->
+                    <input type="submit" value="登録する" class="submit">
                 </div>
 
 
