@@ -1052,6 +1052,10 @@ footer .email
         font-size: 4vw;
         font-weight: 400;
 
+        -webkit-box-align: center;
+        align-items: center;
+        -ms-flex-align: center;
+
         margin-top: 2vw;
 
         text-align: center;
