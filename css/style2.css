@@ -32,8 +32,6 @@
 .main_wrapper
 {
     font-family: OpenSans;
-    /*max-width: 1600px;
-        min-width: 1024px;*/
 
     width: 1024px;
     margin: 0 auto;
@@ -950,7 +948,7 @@ footer .email
         -ms-flex-pack: justify;
         justify-content: space-between;
 
-        width: 73%;
+        width: 63%;
         height: 5vw;
         margin: 0 auto;
     }
@@ -977,7 +975,7 @@ footer .email
 
     .nav-link
     {
-        font-size: 1vw;
+        font-size: .9vw;
         font-weight: 700;
 
         text-transform: uppercase;
@@ -1006,19 +1004,20 @@ footer .email
         -ms-flex-direction: column;
             flex-direction: column;
 
-        height: 53vw;
+        height: 45vw;
 
+        background-color: #35231c;
         background-image: url(../img/header_bg.jpg);
         background-repeat: no-repeat;
         background-position: 50% 0;
-        background-size: cover;
+        background-size: contain;
     }
 
     .logo
     {
-        width: 13vw;
-        margin-top: 7.5vw;
-        margin-left: 16.4vw;
+        width: 12vw;
+        margin-top: 5.6vw;
+        margin-left: 20.4vw;
     }
 
     .header_card
@@ -1030,11 +1029,10 @@ footer .email
         -ms-flex-pack: center;
         justify-content: center;
 
-        width: 35VW;
-        height: 15vw;
+        width: 32vw;
+        height: 14vw;
         margin: 0 auto;
-        margin-top: 6vw;
-        margin-bottom: 5vw;
+        margin-top: 4vw;
 
         color: #fff;
         border: 1px solid;
@@ -1049,7 +1047,7 @@ footer .email
 
     .header_card h1
     {
-        font-size: 4vw;
+        font-size: 3.5vw;
         font-weight: 400;
 
         margin-top: 2vw;
@@ -1060,7 +1058,7 @@ footer .email
 
     .header_card h1 span
     {
-        font-size: 8vw;
+        font-size: 7vw;
 
         margin-top: 1vw;
     }
