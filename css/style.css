@@ -779,8 +779,6 @@ footer
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    /*
-        justify-content: center;*/
     -webkit-box-align: center;
     align-items: center;
     -ms-flex-align: center;
@@ -789,7 +787,7 @@ footer
     -ms-flex-direction: column;
         flex-direction: column;
 
-    height: 479px;
+    min-height: 479px;
 
     color: #fff;
     background-image: url(../img/footer_bg.jpg);
@@ -802,8 +800,8 @@ footer h2
     font-size: 24px;
     font-weight: 700;
 
-    margin-top: 118px;
-    margin-bottom: 18px;
+    margin-top: 80px;
+    margin-bottom: 60px;
 
     text-transform: uppercase;
 
@@ -843,12 +841,12 @@ footer form .submit
     height: 33px;
     margin-top: 10px;
     margin-bottom: 40px;
-    padding: 0;;
+    padding: 0;
 
     color: #fffefe;
     border-color: #d70000;
     border-radius: 25px;
-    background-color: #d70000;
+    background-color: #d70000;;
 }
 
 footer form .submit:hover
