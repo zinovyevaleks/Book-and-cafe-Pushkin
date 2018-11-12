@@ -1,8 +1,16 @@
 $ (function () {
-	
+
     $('.nav-mobile-icon').click(function() {
-    	$(this).toggleClass('open');
-    	$('.nav-list-mobile').toggleClass('mobile-menu-open');
+
+    	$('.nav-list-mobile').addClass('mobile-menu-open');
+		$('.nav-mobile-icon').hide();
+		$('.nav-mobile-close').show();
+    });
+	$('.nav-mobile-close').click(function() {
+
+    	$('.nav-list-mobile').removeClass('mobile-menu-open');
+		$('.nav-mobile-icon').show();
+		$('.nav-mobile-close').hide();
     });
 
     $("a[href^='#']").click(function(){
@@ -12,4 +20,3 @@ $ (function () {
         });
 
 });
-  
