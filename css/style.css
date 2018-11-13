@@ -1068,6 +1068,31 @@ footer .email
         margin-right: 10px;
         margin-left: 10px;
     }
+
+    .about_card p
+    {
+        font-size: 1.2em;
+    }
+
+    .program_card h2
+    {
+        font-size: 2em;
+    }
+
+    .program_card p
+    {
+        font-size: 1.3em;
+    }
+
+    .important .row p
+    {
+        font-size: 1.1em;
+    }
+
+    .meeting_card p
+    {
+        font-size: 1.1em;
+    }
 }
 
 @media (min-width: 1024px)
