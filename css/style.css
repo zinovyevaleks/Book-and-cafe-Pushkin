@@ -1069,9 +1069,20 @@ footer .email
         margin-left: 10px;
     }
 
+    .header_card
+    {
+        margin-top: 60px;
+    }
+
     .about_card p
     {
-        font-size: 1.2em;
+        font-size: 1.3em;
+        line-height: 1.3;
+    }
+
+    .program_card
+    {
+        height: 888px;
     }
 
     .program_card h2
@@ -1081,17 +1092,185 @@ footer .email
 
     .program_card p
     {
-        font-size: 1.3em;
+        font-size: 1.5em;
+    }
+
+    .program_card .book-icon
+    {
+        width: 73px;
+        height: 54px;
+        margin-right: 32px;
+        margin-left: 73px;
+    }
+
+    .program_card .people-icon
+    {
+        width: 74px;
+        height: 54px;
+        margin-left: 68px;
+    }
+
+    .program_card .kokoshnik-icon
+    {
+        width: 160px;
+        height: 56px;
+        margin-left: 80px;
+    }
+
+    .program_card_jp .book-icon
+    {
+        width: 54px;
+        height: 54px;
+        margin-right: 32px;
+        margin-left: 73px;
+    }
+
+    .program_card_jp .people-icon
+    {
+        width: 74px;
+        height: 54px;
+        margin-right: 12px;
+        margin-left: 68px;
+    }
+
+    .important
+    {
+        padding-left: 182px;
+    }
+
+    .important .row
+    {
+        height: 46px;
+    }
+
+    .important h2
+    {
+        margin-left: 212px;
+    }
+
+    .important_jp h2
+    {
+        margin-left: 130px;
     }
 
     .important .row p
     {
-        font-size: 1.1em;
+        font-size: 1.4em;
+
+        width: 90%;
+    }
+
+    .meeting_card
+    {
+        height: 500px;
+        margin-top: 50px;
+    }
+
+    .meeting_card_jp h2
+    {
+        font-family: 'OpenSans';
+
+        margin-left: 310px;
+    }
+    .meeting_card .row
+    {
+        height: 75px;
+    }
+
+    .meeting_card .row .book-ico
+    {
+        width: 37px;
+        height: 30px;
+        margin-right: 19px;
+        margin-left: 70px;
+
+        background-size: contain;
     }
 
     .meeting_card p
     {
+        font-size: 1.4em;
+
+        width: 80%;
+    }
+
+    .price h4
+    {
+        font-size: 1.5em;
+
+        margin-bottom: 10px;
+    }
+
+    .price p
+    {
+        font-size: 1.2em;
+    }
+
+    .cal .img
+    {
+        margin-bottom: 19px;
+    }
+
+    .coin .img
+    {
+        margin-bottom: 13px;
+    }
+
+    .dialog .img
+    {
+        margin-bottom: 20px;
+    }
+
+    .dialog_jp
+    {
+        padding-bottom: 10px;
+    }
+    .dialog_jp .img
+    {
+        margin-bottom: 20px;
+    }
+
+    .begining .img
+    {
+        margin-bottom: 19px;
+    }
+
+    .begining_jp p
+    {
         font-size: 1.1em;
+    }
+
+    footer h2
+    {
+        font-size: 35px;
+
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    footer form input
+    {
+        font-size: 18px;
+
+        width: 276px;
+        height: 48px;
+    }
+
+    footer form .submit
+    {
+        font-size: 24px;
+
+        height: 44px;
+        margin-bottom: 20px;
+    }
+    footer h3
+    {
+        font-size: 30px;
+    }
+
+    footer .email
+    {
+        font-size: 25px;
     }
 }
 
